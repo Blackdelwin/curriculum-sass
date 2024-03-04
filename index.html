@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Cv SASS</title>
+</head>
+<body>
+    <!-- 
+        Sección incial: 
+        Esta sección contiene el pequeño menú con los enlaces para poder navegar de forma eficiente por el documento y toda la parte donde aparece mi nombre, foto y lo que soy.
+    -->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar" id="navbar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav" class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobremi">Sobre mí</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#exp-edu">Exp. y formación</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+                
+            </header>
+
+
+            <div class="info">
+                <h1>Sergio Zaragoza Giannuzzi</h1><br>
+                <h2>Desarrollador web y administrador de sistemas</h2>
+                <div class="redes">
+                    <a href="https://www.facebook.com/profile.php?id=100076940862336"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/blackdelwin/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="foto">
+                <img src="./img/yoDeVerdad.JPG" alt="micara">
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        Sección sobre mí:
+        Esta sección está dedicada al apartado donde cuento un poco sobre mí, de forma personal y no profesional. Un poco sobre mis intereses, por la zona en la que me muevo, etc..
+    -->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2>Detalles personales</h2>
+
+            <p class="especial">Me dedico a la creación de aplicaciones web</p>
+            <p>Siempre me ha gustado el ámbito informático. Desde la administración de sistema hasta la programación de aplicaciones. Mi pasión por la programación nació cuando terminaba mi grado en sistemas informáticos y de ahí decidí estuadiarlo.</p>
+
+            <div class="fila">
+                
+                <div class="col">
+                    <i class="fa-solid fa-location-pin"></i>
+                    <span class="titulo-detalle">Ubicación</span>
+                    <p>Me muevo por la zona de Málaga, una gran provincia al sur de Andalucía. Aquí prima las temperaturas cálidas y los días de playa. No hay nada como quedarte 2 semanas encerrado desarrollando una aplicación para luego poder disfrutar de las quemaduras de tercer grado por culpa del sol :D.</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-flag"></i>
+                    <span class="titulo-detalle">Intereses</span>
+                    <p>Me interesa prácticamente todo lo relacionado con la tecnología y la electrónica. Aparte de eso, tengo una gran pasión por las motos, los días nublados y los videojuegos. Me encantaría poder hacer entender a los demás lo que puedes aprender y lo bien que actúa de soporte emcional los videojuegos. A veces más que las personas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2>Me especializo en</h2>
+
+            <div class="fila">
+                <div class="col">
+                    <span>HTML/CSS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="html">
+
+                        </div>
+                        <span>98%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>JAVASCRIPT</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="javascript">
+                            <!-- Aquí se va a venir fuerte las pilitas de carga para mostrar mis skills -->
+                        </div>
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>LARAVEL</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="wordpress">
+                            <!-- Aquí se va a venir fuerte las pilitas de carga para mostrar mis skills -->
+                        </div>
+                        <span>67%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>ANGULAR</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="photoshop">
+                            <!-- Aquí se va a venir fuerte las pilitas de carga para mostrar mis skills -->
+                        </div>
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>PHP</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="php">
+                           <!-- Aquí se va a venir fuerte las pilitas de carga para mostrar mis skills -->
+                        </div>
+                        <span>95%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>SQL</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="ilustrator">
+                           <!-- Aquí se va a venir fuerte las pilitas de carga para mostrar mis skills -->
+                        </div>
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        Sección experiencia y educación
+
+     -->
+    <section class="exp-edu" id="exp-edu">
+        <div class="contenido-seccion">
+            <h2>Mi preparación y experiencia</h2>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Educación</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2019 - 2021</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Instituto público dedicada a la enseñanza de la educación secundaria, bachillerato y los grados superiores de informática. Está situado en el centro
+                                de Fuengirola en Málaga. <a href="https://www.iesfuengirola1.es/ ">https://www.iesfuengirola1.es/ </a>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Administración de sistemas informáticos en red</h4>
+                                <p>I.E.S Fuengirola Nº1</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2022 - 2024</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Instituto privado exclusivamente dedicado a los grados superiores de informática. Se encuentra en Málaga cerca del centro comercial Vialia.
+                                <a href="https://www.cenecmalaga.es/">https://www.cenecmalaga.es/</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Desarrollo de aplicaciones web</h4>
+                                <p>Cenec Málaga</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Experiencia Laboral</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>8 meses</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Empresa dedicada al sector informático en el area de la hostelería.
+                                Tienen su oficina principal en Fuengirola pero distribuyen equipo informático
+                                a lugares como Málaga, Nerja, Sotogrande. <a href="https://www.bartolomeconsultores.com/">https://www.bartolomeconsultores.com/</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Bartolome Consultores</h4>
+                                <p>Técnico en el montaje de equipos informáticos</p>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>
+                        <i class="fa-solid fa-phone"></i> Teléfono
+                    </h3>
+                    <span class="info-contacto">+34 604 21 98 62</span>
+                </div>
+                <div class="col">
+                    <h3>
+                        <i class="fa-solid fa-envelope"></i> Correo
+                    </h3>
+                    <span class="info-contacto">sergio@example.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
